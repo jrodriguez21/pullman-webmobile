@@ -9,7 +9,7 @@ import { PopoverController } from '@ionic/angular';
 })
 export class PopCartComponent implements OnInit {
 
-  compras: [any];
+  compras: [];
   total;
   constructor(
     private mys: MyserviceService,
